@@ -29,3 +29,20 @@ let caducado: boolean="True";
 
 console.log(alumno)
 console.log(caducado)
+
+let equipo: string[] = ["Pikachu", "Charmander", "Bulbasur"];
+console.log(equipo);
+
+let pokemoncapturado: string | null = null;
+let pokemonInicial: string | undefined;
+
+let experienciaAcumulada: bigint = 9869869849456534n;
+//tipo symbol
+
+let pokemon1: symbol = Symbol("Pikachu");
+    console.log(pokemon1.description);
+let pokemon2: symbol = Symbol("Pikachu");
+    console.log(pokemon2.description);
+console.log(pokemon1 === pokemon2);
+
+
