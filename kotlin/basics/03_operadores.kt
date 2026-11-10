@@ -22,8 +22,8 @@ fun main() {
     println("Cristales: $cristales")
     val energia = 15/5*5
     println("Energia: $energia")
-    val combustible = 100+20/4*3-10%3
-    println("Combustible: $combustible")
+    val combustible1 = 100+20/4*3-10%3
+    println("Combustible: $combustible1")
 
     println("Operadores de comparacion")
     println("Igual a == : ${10 == 10}")
@@ -50,7 +50,6 @@ fun main() {
     val puedeViajar = combustible >= 50 && portalActivo
 
     println("¿Puede viajar? $puedeViajar")
-    println("Negado ? $negado")
 
     val tieneTarjeta = false
     val autorizadoPorRick = true

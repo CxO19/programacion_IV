@@ -18,7 +18,7 @@ fun main(){
     energia = 70
     if (energia>= 100){
         println("Mateo puede abrit el portal")
-    } else if ("Energia >= 50") {
+    } else if (energia >= 50) {
         println("energia suficiente")
     } else {
         println("Energia insuficiente")
@@ -27,7 +27,7 @@ fun main(){
     println("Condicional multiple")
     energia = 70
     val motorActivo = true
-    if ("energia>=70"){
+    if (energia>=70){
         println("Rick puede abrir el portal")
         if (motorActivo){
             println("el motor anda activo papi")
